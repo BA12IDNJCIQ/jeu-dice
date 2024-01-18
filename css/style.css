@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    position: relative;
+    background-color: rgb(227, 32, 32) ;
+    text-transform: capitalize;
+}
+.container{
+    position: absolute;
+    width: 1000px; 
+    background-color: white;
+    height: 600px;
+    
+    left: 17%; 
+    font-family: Lato;
+    text-transform: uppercase;
+    margin-top: 3%; 
+    
+}
+@media(min-width : 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+ @media(min-width : 768px) /*Medium screen*/{ 
+    .container{
+        max-width:740px;
+    }
+}
+@media(min-width : 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+button{
+    text-align: center;
+    color: #4C545C !important;
+    
+}
+
+.new{
+    padding: 16px; 
+     top: 13px;
+     left: 40%;
+     margin: 0 auto;
+     position: absolute;
+     
+    
+     
+ }
+ #hold{
+    position: absolute;
+    margin-bottom: 20px;
+    
+    left: 43%;
+}
+#roll {
+    position: absolute;
+    
+    
+    left: 40%;
+}
+@media (min-width : 576px ){
+    .new , #hold , #roll {
+        font-size: 20px !important;
+    }
+    #roll {
+        bottom : 36%;
+    }
+    #hold {
+        bottom : 19%;
+        left: 42%;
+    }
+}
+
+@media (min-width : 768px ){
+    .new , #hold , #roll {
+        font-size: 20px !important;
+    }
+    #roll {
+        bottom : 42%;
+    }
+    #hold {
+        bottom : 24%;
+    }
+}
+@media (min-width : 992px ){
+    .new , #hold , #roll {
+        font-size: 30px !important;
+    }
+    #roll {
+        bottom : 40%;
+    }
+    #hold {
+        bottom : 24%;
+    }
+}
+
+
+h1{
+    margin-top: 113px;
+    
+}
+
+.active {
+   
+    background-color: gray;
+   
+}
+
+i {
+    color: #e85050;
+
+}
+#player-1,
+#player-2{
+    height: 100%;
+}
+.player-name{
+    margin: 66px;
+    font-size: 43px;
+    color: black;
+    opacity: 0.6;
+    font-weight: 100;
+}
+@media (min-width : 576px){
+    .player-name{
+        margin: 65px;
+        font-size: 30px;
+        
+    }
+}
+@media (min-width : 768px){
+    .player-name{
+        font-size: 30px;
+        
+    }
+}
+@media (min-width : 992px){
+    .player-name{
+        font-size: 40px;
+    }
+}
+.active{
+   background-color: #d8d0d0;
+ 
+}
+
+#global-0 , 
+#global-1 {
+    color: #D13B3B;
+    opacity: 0.8;
+    font-size: 60px;
+    margin: 60px;
+    font-weight: 100;
+
+}
+div .current-1 , .current-0{
+    margin: 0 29%;
+    background-color: rgb(227, 32, 32);
+    width: 40%;
+} 
+
+
+
+img{
+    position: absolute;
+    top: 180px;
+    left: 44%;
+    width: 100px;
+    display: block;
+
+}
+/* add class active */
+/* .active{
+    background-color: #d8d0d0;
+
+} */
+
+
